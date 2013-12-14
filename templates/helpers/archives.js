@@ -1,6 +1,6 @@
 var _ = require('underscore');
 
-// should htis go in a view?
+// should this go in a view?
 module.exports = function(a, options) {
 	var archives = _.chain(a).pluck('index.md')
 	.groupBy(function(item) {
