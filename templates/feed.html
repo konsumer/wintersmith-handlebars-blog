@@ -7,7 +7,7 @@
     <description>{{description}}</description>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
-{{# articles env contents }}
+{{# feed env contents }}
 	    <item>
 	    	<title>{{title}}</title>
 	    	<link>{{../url}}{{url}}</link>
@@ -16,6 +16,6 @@
 	    	<author>{{author}}</author>
 	    	<description>{{html}}</description>
 		</item>
-{{/ articles }}
+{{/ feed }}
 </channel>
 </rss>
